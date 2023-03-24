@@ -1,5 +1,5 @@
 import React from "react";
-import SkillCard from "./subcomponents/SkillCard";
+import SkillCard from "./subcomponents/skillCard";
 
 function Skills() {
   const skillItmes = [
