@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "./Subcomponents/projectCard";
+import ProjectCard from "./subcomponents/ProjectCard";
 
 function Projects() {
   const projectItems = [
