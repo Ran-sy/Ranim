@@ -1,16 +1,16 @@
 {
-  "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/animalRace": "pages/animalRace.html",
   "/": "pages/index.html",
   "/gameCenter": "pages/gameCenter.html",
-  "/miniStore": "pages/miniStore.html",
+  "/animalRace": "pages/animalRace.html",
+  "/ultimateChat": "pages/ultimateChat.html",
   "/simpleCalculator": "pages/simpleCalculator.html",
+  "/miniStore": "pages/miniStore.html",
   "/website1": "pages/website1.html",
   "/website2": "pages/website2.html",
-  "/ultimateChat": "pages/ultimateChat.html",
-  "/website3": "pages/website3.html",
   "/studentStore": "pages/studentStore.html",
+  "/website3": "pages/website3.html",
   "/404": "pages/404.html"
 }
