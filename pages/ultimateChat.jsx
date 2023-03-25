@@ -9,7 +9,7 @@ function ultimateChat() {
       <div className="w-screen h-[25vh] lg:h-[30vh] relative">
         <div className="absolute top-0 left-0 w-full h-full bg-[#c5c6c7]/80 z-10" />
         <Image
-          src="/publicc/assets/projects/ultimate-chat.jpg"
+          src="/public/assets/projects/ultimate-chat.jpg"
           alt="Ultimate Chat"
           className="absolute z-1"
           fill

@@ -62,7 +62,7 @@ function Contact() {
             <div>
               <div>
                 <Image
-                  src="/publicc/assets/contactMe.jpg"
+                  src="/public/assets/contactMe.jpg"
                   alt="/contact me"
                   width={800}
                   height={500}
