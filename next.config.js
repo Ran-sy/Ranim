@@ -6,7 +6,11 @@ const nextConfig = {
   },
   compilerOptions: {
     baseUrl: ".",
-  }
+    paths: {
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+    },
+  },
 };
 
 module.exports = nextConfig;
