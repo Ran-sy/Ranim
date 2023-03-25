@@ -16,7 +16,7 @@ export default function Home() {
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="Ranim/public/images/favicon-32x32.png"
+          href="Ranim/public/images/favicon-32x32.png" 
         />
         <link
           rel="icon"

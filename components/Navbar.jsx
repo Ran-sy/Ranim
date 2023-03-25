@@ -35,7 +35,7 @@ function Navbar() {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 md:justify-around">
         <Link href="/#">
           <Image
-            src="/../public/assets/RYLogo.png"
+            src="/publicc/assets/RYLogo.png"
             alt="/"
             width={75}
             height={75}
@@ -77,7 +77,7 @@ function Navbar() {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/RYLogo.png"
+                src="/publicc/assets/RYLogo.png"
                 width={45}
                 height={45}
                 alt="8"

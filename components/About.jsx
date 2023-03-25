@@ -29,7 +29,7 @@ function About() {
         </div>
         <div className="flex items-center rounded-xl">
           <Image
-            src="/../public/assets/laptop.jpg"
+            src="/public/assets/laptop.jpg"
             alt="/"
             width={800}
             height={250}

@@ -9,7 +9,7 @@ function website3() {
       <div className="w-screen h-[25vh] lg:h-[30vh] relative">
         <div className="absolute top-0 left-0 w-full h-full bg-[#c5c6c7]/80 z-10" />
         <Image
-          src="/../public/assets/projects/website3.jpg"
+          src="/publicc/assets/projects/website3.jpg"
           alt="Third Website"
           className="absolute z-1"
           fill

@@ -9,7 +9,7 @@ function studentStore() {
       <div className="w-screen h-[25vh] lg:h-[30vh] relative">
         <div className="absolute top-0 left-0 w-full h-full bg-[#c5c6c7]/80 z-10" />
         <Image
-          src="/../public/assets/projects/student-store.jpg"
+          src="/publicc/assets/projects/student-store.jpg"
           alt="Student Store"
           className="absolute z-1"
           fill
