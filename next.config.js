@@ -4,13 +4,6 @@ const nextConfig = {
   resolve: {
     extensions: [".js", ".jsx"],
   },
-  compilerOptions: {
-    baseUrl: ".",
-    paths: {
-      "@components/*": ["components/*"],
-      "@pages/*": ["pages/*"],
-    },
-  },
 };
 
 module.exports = nextConfig;
