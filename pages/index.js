@@ -12,19 +12,19 @@ export default function Home() {
         <title>Ranim | Frontend Developer</title>
         <meta name="description" content="Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="/images/favicon.ico" />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/images/favicon-32x32.png"
+          href="Ranim/public/images/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/images/favicon-16x16.png"
+          href="Ranim/public/images/favicon-16x16.png"
         />
+        <link rel="shortcut icon" href="Ranim/public/images/favicon.ico" />
       </Head>
       <Main />
       <About />
