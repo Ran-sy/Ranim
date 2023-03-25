@@ -1,14 +1,19 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === "production";
+const debug = process.env.NODE_ENV !== "production";
 
 const nextConfig = {
   reactStrictMode: true,
   distDir: "build",
-  assetPrefix: isProd ? "ran-sy.github.io/Ranim" : ".",
-  images: {
-    unoptimized: true,
+  exportPathMap: function () { // /Next-React-Components
+    return {
+      "/": { page: "/" },
+      "/ap-grid-layout": { page: "/ap-grid-layout" },
+      "/ap-highlight": { page: "/ap-highlight" },
+    }
   },
+  assetPrefix: !debug ? 'https://ran-sy.github.io/Ranim/' : '',
+  
 };
 
 module.exports = nextConfig;
