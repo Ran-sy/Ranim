@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   distDir: "build",
   assetPrefix: !debug ? 'https://ran-sy.github.io/Ranim' : '.',
-  basePath: !debug ? '/Ranim' : '',
+  basePath: !debug ? '/Ranim' : '.',
   images: {
     unoptimized: true
   }

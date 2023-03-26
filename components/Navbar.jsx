@@ -28,14 +28,14 @@ function Navbar() {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-[90vw] h-20 shadow-xl z-[100]"
+          : "fixed w-[90vw] h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 md:justify-around">
+      <div className="flex justify-between items-center w-[90vw] h-full px-2 2xl:px-16 md:justify-around">
         <Link href="/#">
           <Image
-            src="/public/assets/RYLogo.png"
+            src="/Ranim/assets/RYLogo.png"
             alt="/"
             width={75}
             height={75}
@@ -70,14 +70,14 @@ function Navbar() {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#c5c6c7] p-5 px-10 ease-in duration-500"
-              : "fixed left-[-150%] top-0 p-5 px-10 ease-in duration-600"
+              ? "fixed left-0 top-0 w-[75vw] sm:w-[60vw] md:w-[45vw] h-screen bg-[#c5c6c7] p-5 px-10 ease-in duration-500"
+              : "fixed left-[-150vw] top-0 p-5 px-10 ease-in duration-600"
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-[full] items-center justify-between">
               <Image
-                src="/public/assets/RYLogo.png"
+                src="/Ranim/assets/RYLogo.png"
                 width={45}
                 height={45}
                 alt="8"
@@ -90,7 +90,7 @@ function Navbar() {
               </div>
             </div>
             <div className="border-b border-grey-300 mb-4">
-              <p className="w-[85%] md:w-[90%] py-4 capitalize">
+              <p className="w-[85vw] md:w-[90vw] py-4 capitalize">
                 Ranim Yassin | Flutter & Frontend web developer
               </p>
             </div>
@@ -127,7 +127,7 @@ function Navbar() {
               <b className="uppercase tracking-widest text-[#45a29e] ">
                 let's Connect...
               </b>
-              <div className="flex items-center justify-between mt-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-between mt-4 w-full sm:w-[80vw]">
                 <div className="rounded-md shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 duration-300">
                   <FaLinkedinIn color="/#45a29e" size={25} />
                 </div>

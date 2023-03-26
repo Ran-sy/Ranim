@@ -16,15 +16,15 @@ export default function Home() {
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="Ranim/public/images/favicon-32x32.png" 
+          href="/Ranim/images/favicon-32x32.png" 
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="Ranim/public/images/favicon-16x16.png"
+          href="/Ranim/images/favicon-16x16.png"
         />
-        <link rel="shortcut icon" href="Ranim/public/images/favicon.ico" />
+        <link rel="shortcut icon" href="/Ranim/images/favicon.ico" />
       </Head>
       <Main />
       <About />
